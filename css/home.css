@@ -1,0 +1,42 @@
+/*!
+ * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)*/
+
+h1#home_heading {
+	position:relative;
+	margin-bottom: 40px;
+}
+
+h1#ck {
+ 	position:absolute;
+ 	top: -100%;
+ 	right: 20%;
+ 	z-index: -1;
+ 	font-size: 16rem;
+ 	color: #C9AF7F;
+ }
+
+a#about_me {
+	margin-bottom: -20%;
+}
+
+section#about {
+	background-color: #222;
+}
+
+#profile_pic {
+	width:300px;
+	height:300px;
+	*/-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+	filter: grayscale(100%);
+	border-radius: 50%;
+}
+
+
+@media only screen and (max-width : 375px) {
+  #profile_pic {
+    height: 17rem !important;
+    width: 17rem !important;
+  }
+}

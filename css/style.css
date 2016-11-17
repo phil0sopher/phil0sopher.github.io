@@ -1,0 +1,133 @@
+nav ul a,
+nav .brand-logo {
+  color: #ccc;
+}
+
+nav ul a:hover {
+    background-color: rgba(255, 255, 255, 0.18);
+}
+
+.dark-grey {
+	background-color: #222!important;
+}
+
+p {
+  line-height: 2rem;
+}
+
+#btn-white {
+	background-color: #fff;
+    color: #212121;
+}
+
+.button-collapse {
+  color: #BF9240;
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+/** spacing **/
+
+.top-margin-10 {
+	margin-top: 10px;
+}
+
+.top-margin-20 {
+	margin-top: 20px;
+}
+
+.top-margin-30 {
+	margin-top: 30px;
+}
+
+.top-margin-50 {
+	margin-top: 50px;
+}
+
+/** card **/
+div.card > div.right-align {
+    margin-top: -30px;
+    margin-right: 20px;
+}
+
+div.card > div.card-action {
+  padding: 20px 10px;
+}
+
+.gold-card {
+	border-style: solid;
+    border-width: 3px;
+    border-color: rgb(204, 172, 112);
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+/** **/
+
+/** gold button **/
+
+/*
+    When creating your CSS selector,
+    change "brown" to something of your choosing
+    */
+    .waves-effect.waves-yellow .waves-ripple {
+     /* The alpha value allows the text and background color
+     of the button to still show through. */
+      background-color: rgba(191, 146, 64, 0.65);
+    }
+
+/** **/
+
+/** Home Page **/
+section.add-padding {
+  padding: 80px 0 40px;
+}
+@media (max-width: 979px) {
+  section {
+    padding: 80px 0;
+  }
+}
+
+#portfolio {
+	background-color: #222;
+}
+
+#portfolio-title {
+	color: #fff;
+}
+
+a {
+	color: #BF9240;
+}
+
+a:focus, a:hover {
+	text-decoration: none;
+}
+
+#index-header{
+	background-image:url(../img/header.jpg);
+}
+
+/** Ascend Page **/
+
+#ascend-header {
+	margin-top: 80px;
+}
+
+#header-ascend {
+	background-image: url(http://www.philipck.com/wp-content/uploads/2016/06/Header-Image-1.png);
+}
+
+.img {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+.ascend-cards {
+	max-height: 500px;
+	padding: 0;
+}
