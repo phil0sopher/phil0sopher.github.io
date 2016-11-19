@@ -9,12 +9,12 @@ h1#home_heading {
 }
 
 h1#ck {
- 	position:absolute;
- 	top: -100%;
- 	right: 20%;
+ 	position:relative;
+ 	top: -10.5rem;
+    right: -8rem;
  	z-index: -1;
  	font-size: 16rem;
- 	color: #C9AF7F;
+ 	color: #fff;
  }
 
 a#about_me {

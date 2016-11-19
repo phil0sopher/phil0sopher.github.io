@@ -20,6 +20,11 @@ p {
     color: #212121;
 }
 
+#btn-gold {
+  background-color: #BF9240;
+    color: #fff;
+}
+
 .button-collapse {
   color: #BF9240;
 }
@@ -65,6 +70,13 @@ div.card > div.card-action {
 }
 /** **/
 
+/** raised button on click **/
+
+.z-depth-1-half, .btn:active, .btn-large:active, .btn-floating:active {
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.22),0 1px 8px 0 rgba(0,0,0,0.22),0 7px 8px -1px rgba(0,0,0,0.2);
+}
+
+
 /** gold button **/
 
 /*
@@ -74,10 +86,11 @@ div.card > div.card-action {
     .waves-effect.waves-yellow .waves-ripple {
      /* The alpha value allows the text and background color
      of the button to still show through. */
-      background-color: rgba(191, 146, 64, 0.65);
+      background-color: rgba(201, 175, 127, 0.85);
     }
 
 /** **/
+
 
 /** Home Page **/
 section.add-padding {
@@ -106,7 +119,15 @@ a:focus, a:hover {
 }
 
 #index-header{
-	background-image:url(../img/header.jpg);
+	background-image:url(../img/header-img-3.jpeg);
+}
+
+@media only screen and (min-width : 769px) {
+  h1#home_heading {
+    margin-bottom: 0px;
+    right: 4rem;
+    color: #222;
+  }
 }
 
 /** Ascend Page **/
