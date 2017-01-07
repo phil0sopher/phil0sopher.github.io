@@ -15,7 +15,7 @@ h1#ck {
     right: -8rem;
  	z-index: -1;
  	font-size: 16rem;
- 	color: #fff;
+ 	color: rgb(255, 255, 255);
  }
 
 a#about_me {
