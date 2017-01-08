@@ -7,13 +7,8 @@ html,body
     background-color: #FAFBFC;
 }
 
-
-header .portfolio-header-content {
-    padding: 10px 15px;
-}
-
 body {
-  overflow-x: hidden;
+  overflow-x: hidden; 
 }
 
 aside {
@@ -318,6 +313,7 @@ a:focus, a:hover {
   position: relative;
   transform: translateY(-50%);
   }
+<<<<<<< HEAD
   h1#ck {
     display: inherit;
   }
@@ -326,12 +322,14 @@ a:focus, a:hover {
     right: 4rem;
     color: #222;
   }
+=======
+>>>>>>> parent of 886f526... 12.15.16 commit 1
 }
 
 /** Ascend Page **/
 
 #ascend-header {
-	margin-top: 20px;
+	margin-top: 80px;
 }
 
 #header-ascend {
@@ -344,12 +342,6 @@ a:focus, a:hover {
     vertical-align: middle;
     border: 0;
     -ms-interpolation-mode: bicubic;
-}
-
-#img {
-  max-width: 100%;
-  max-height: 100%;
-  vertical-align: middle;
 }
 
 .ascend-cards {
@@ -409,6 +401,7 @@ hr.blue {
     border-width: 3px;
 }
 
+<<<<<<< HEAD
 @media only screen and (min-width : 768px) {
   #ascend-header {
     margin-top: 140px;
@@ -425,3 +418,10 @@ hr.blue {
   }
 }
 
+=======
+@media only screen and (min-width : 1040px) {
+  #ascend-header {
+    margin-top: 140px;
+  }
+}
+>>>>>>> parent of 886f526... 12.15.16 commit 1

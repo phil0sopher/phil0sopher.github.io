@@ -187,7 +187,11 @@ header .header-content .header-content-inner p {
   header {
     min-height: 100%;
   }
+<<<<<<< HEAD
   header .header-content{
+=======
+  header .header-content {
+>>>>>>> parent of 886f526... 12.15.16 commit 1
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
