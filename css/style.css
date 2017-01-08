@@ -4,7 +4,7 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    background-color: rgb(255, 255, 255);
+    background-color: #FAFBFC;
 }
 
 
@@ -76,6 +76,10 @@ strong {
 
 .margin-auto {
   margin: auto!important;
+}
+
+.margin-td-30 {
+  margin: 30px 0;
 }
 
 @media (min-width: 0px) {
@@ -181,21 +185,43 @@ strong {
 }
 
 .space-after {
-  margin-bottom: 3rem;
+  margin-bottom: 30px;
 }
 
 /** card **/
 
-.hoverable_cards:hover {
+.reg_cards {
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+.hoverable_cs_cards:hover {
   box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
 }
 
-.hoverable_cards {
+.hoverable_cs_cards {
   box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
   border-radius: 6px;
   transition: all 0.3s ease;
   overflow: hidden;
   margin: 3% 10%;
+}
+
+.hoverable_cards:hover {
+  box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+}
+
+.hoverable_cards{
+  box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+.no_margin_padding {
+  margin: 0;
+  padding: 0;
+
 }
 
 .card-action-text {
