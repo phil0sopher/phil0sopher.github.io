@@ -1,4 +1,4 @@
-ƒƒheade/*!
+/*!
  * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
@@ -187,7 +187,7 @@ header .header-content .header-content-inner p {
   header {
     min-height: 100%;
   }
-  header .header-content, header .portfolio-header-content {
+  header .header-content{
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
