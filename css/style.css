@@ -4,7 +4,10 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
+<<<<<<< HEAD
     background-color: #FAFBFC;
+=======
+>>>>>>> parent of 1dd2ffd... 1.6.17 commit 1
 }
 
 
@@ -37,18 +40,8 @@ p {
   line-height: 2rem;
 }
 
-a {
-   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-   font-weight: 600;
-}
-
 strong {
   font-weight: 700;
-}
-
-.dark_background {
-  background-color: #222;
-  color: #ddd;
 }
 
 #btn-white {
@@ -189,6 +182,7 @@ strong {
 }
 
 /** card **/
+<<<<<<< HEAD
 
 .reg_cards {
   border-radius: 6px;
@@ -228,11 +222,11 @@ strong {
   padding: 20px 0px;
 }
 
+=======
+>>>>>>> parent of 1dd2ffd... 1.6.17 commit 1
 div.card > div.right-align {
     margin-top: -30px;
     margin-right: 20px;
-    position: absolute;
-    right: 0;
 }
 
 div.card > div.card-action {
@@ -245,10 +239,6 @@ div.card > div.card-action {
     border-color: rgb(204, 172, 112);
     box-sizing: border-box;
     border-radius: 2px;
-}
-
-#card-hvr-btn {
-  background-color: #CCAC70;
 }
 /** **/
 
@@ -276,10 +266,6 @@ div.card > div.card-action {
 
 /** Home Page **/
 
-nav ul a.active {
-  background: rgba(111,111,111,0.8);
-}
-
 section.add-padding {
   padding: 80px 0 40px;
 }
@@ -289,8 +275,12 @@ section.add-padding {
   }
 }
 
+#portfolio {
+	background-color: #222;
+}
+
 #portfolio-title {
-	color: #222;
+	color: #fff;
 }
 
 a {
@@ -302,13 +292,16 @@ a:focus, a:hover {
 }
 
 #index-header{
-	background-image:url(../img/header-img-2.jpeg);
+	background-image:url(../img/header-img-3.jpeg);
 }
 
-.bjcardpadding {
-  padding-bottom: 20px;
+@media only screen and (min-width : 769px) {
+  h1#home_heading {
+    margin-bottom: 0px;
+    right: 4rem;
+    color: #222;
+  }
 }
-
 @media only screen and (min-width : 960px) {
   #profile-div{
     height:33rem;
@@ -320,11 +313,6 @@ a:focus, a:hover {
   }
   h1#ck {
     display: inherit;
-  }
-   h1#home_heading {
-    margin-bottom: 0px;
-    right: 4rem;
-    color: #222;
   }
 }
 
@@ -409,19 +397,11 @@ hr.blue {
     border-width: 3px;
 }
 
+
+
 @media only screen and (min-width : 768px) {
   #ascend-header {
     margin-top: 140px;
-  }
-  .CS_header_img {
-    margin: 40px 0 0 0 ;
-  }
-}
-
-@media only screen and (min-width : 1025px) {
-  .CS_header_img {
-    max-width: 60vw;
-    max-height: 60vw;
   }
 }
 
