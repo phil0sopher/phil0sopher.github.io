@@ -195,11 +195,11 @@ strong {
   box-shadow: none;
 }
 
-.hoverable_reg_cards:hover {
+.hoverable_cs_cards:hover {
   box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
 }
 
-.hoverable_reg_cards {
+.hoverable_cs_cards {
   box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
   border-radius: 6px;
   transition: all 0.3s ease;
