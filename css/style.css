@@ -7,8 +7,13 @@ html,body
     background-color: #FAFBFC;
 }
 
+
+header .portfolio-header-content {
+    padding: 10px 15px;
+}
+
 body {
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 aside {
@@ -190,11 +195,11 @@ strong {
   box-shadow: none;
 }
 
-.hoverable_cs_cards:hover {
+.hoverable_reg_cards:hover {
   box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
 }
 
-.hoverable_cs_cards {
+.hoverable_reg_cards {
   box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
   border-radius: 6px;
   transition: all 0.3s ease;
@@ -313,7 +318,6 @@ a:focus, a:hover {
   position: relative;
   transform: translateY(-50%);
   }
-<<<<<<< HEAD
   h1#ck {
     display: inherit;
   }
@@ -322,14 +326,12 @@ a:focus, a:hover {
     right: 4rem;
     color: #222;
   }
-=======
->>>>>>> parent of 886f526... 12.15.16 commit 1
 }
 
 /** Ascend Page **/
 
 #ascend-header {
-	margin-top: 80px;
+	margin-top: 20px;
 }
 
 #header-ascend {
@@ -342,6 +344,12 @@ a:focus, a:hover {
     vertical-align: middle;
     border: 0;
     -ms-interpolation-mode: bicubic;
+}
+
+#img {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
 }
 
 .ascend-cards {
@@ -394,14 +402,6 @@ hr.blue {
   border-color: rgb(47, 170, 206);
 }
 
-.collapsible.popout>li.active {
-    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
-    margin: 16px 0;
-    border-style: solid;
-    border-width: 3px;
-}
-
-<<<<<<< HEAD
 @media only screen and (min-width : 768px) {
   #ascend-header {
     margin-top: 140px;
@@ -418,10 +418,3 @@ hr.blue {
   }
 }
 
-=======
-@media only screen and (min-width : 1040px) {
-  #ascend-header {
-    margin-top: 140px;
-  }
-}
->>>>>>> parent of 886f526... 12.15.16 commit 1
