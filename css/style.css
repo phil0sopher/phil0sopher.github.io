@@ -335,7 +335,7 @@ a:focus, a:hover {
 }
 
 #header-ascend {
-	background-image: url(../img/ascend/ascend_header.png);
+	background-image: url("https://phil0sopher.github.io/img/ascend/ascend_header.png");
 }
 
 .img {
