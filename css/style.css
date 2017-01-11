@@ -69,6 +69,20 @@ strong {
   font-weight: 700;
 }
 
+footer.page-footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #FAFBFC;
+}
+
+footer.page-footer .footer-copyright {
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    color: #222;
+    background-color: #FAFBFC;
+}
+
 .dark_background {
   background-color: #222;
   color: #ddd;
