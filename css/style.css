@@ -7,13 +7,36 @@ html,body
     background-color: #FAFBFC;
 }
 
-
 header .portfolio-header-content {
     padding: 10px 15px;
 }
 
 body {
   overflow-x: hidden;
+}
+
+/* --------------------------------------
+Fade-In
+-------------------------------------- */
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fadeIn {
+  opacity:0;
+  opacity: 1 \9;
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
 }
 
 aside {
@@ -61,6 +84,27 @@ strong {
     color: #fff;
 }
 
+.btn-NoHeight {
+  text-decoration: none;
+  color: #fff;
+  background-color: #26a69a;
+  text-align: center;
+  letter-spacing: .5px;
+  transition: .2s ease-out;
+  cursor: pointer;
+  max-height: none;
+  outline: 0;
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  line-height: 36px;
+  padding: 0 1rem;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
 .button-collapse {
   color: #BF9240;
 }
@@ -74,6 +118,8 @@ strong {
   transition: box-shadow .25s;
 }
 
+/** margins **/
+
 .margin-auto {
   margin: auto!important;
 }
@@ -84,6 +130,10 @@ strong {
 
 .margin-top-40 {
   margin: 40px 0 0 0;
+}
+
+.li-spacing{
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 0px) {
@@ -348,6 +398,15 @@ a:focus, a:hover {
   }
 }
 
+/** Case Studies **/
+
+.problemStatement {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 /** Ascend Page **/
 
 #ascend-header {
@@ -438,3 +497,49 @@ hr.blue {
   }
 }
 
+/** Faamus Page **/
+
+.red {
+  border-color: #F44336 !important;
+  background-color: #F44336 !important;
+}
+
+.text-red {
+  color: #F44336;
+}
+
+.persona-tint {
+  -webkit-filter: grayscale;
+  -webkit-filter: brightness(70%);
+} 
+
+/** My Resume Page **/
+section#resume {
+    width: 1000px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 125px 0 50px;
+}
+
+.resume {
+  margin-bottom: 20px;
+}
+
+#resume-header {
+  margin: 0px 0 25px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  #resumePic {
+  margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  #resume_download_text{
+    font-size: 20px;
+  }
+  #resume-header {
+    font-size: 24px;
+  }
+}
