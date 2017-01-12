@@ -80,7 +80,7 @@ footer.page-footer .footer-copyright {
     height: 30px !important;
     line-height: 30px !important;
     color: #222 !important;
-    background-color: #FAFBFC !important;
+    background-color: #FAFBFC;
 }
 
 .dark_background {
@@ -174,8 +174,12 @@ footer.page-footer .footer-copyright {
     width: 100%;
     padding-left: 5;
     padding-right: 5;
+  }
+  .disable_mobile {
+    display: none;
+  }
 }
-}
+
 
 /** animations **/
 /**------------**/
