@@ -548,7 +548,9 @@ section#resume {
 }
 
 #resume-header {
-  margin: 0px 0 25px 0;
+  margin: 0px 0 10px 0;
+  text-align: left;
+  padding: 0px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -563,5 +565,6 @@ section#resume {
   }
   #resume-header {
     font-size: 24px;
+    text-align: center;
   }
 }
