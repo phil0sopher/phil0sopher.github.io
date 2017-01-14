@@ -427,7 +427,7 @@ a:focus, a:hover {
 
 /** Ascend Page **/
 
-#ascend-header {
+.casestudy-header {
 	margin-top: 20px;
 }
 
@@ -516,6 +516,10 @@ hr.blue {
 }
 
 /** Faamus Page **/
+
+#header-faamus {
+  background-color: #F44336;
+}
 
 .red {
   border-color: #F44336 !important;
