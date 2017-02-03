@@ -568,3 +568,18 @@ section#resume {
     text-align: center;
   }
 }
+
+/** Faamus Page **/
+
+#header-yuvue {
+  background-color: #FFB44F
+}
+
+.orange {
+  border-color: #FFB44F !important;
+  background-color: #FFB44F !important;
+}
+
+.text-orange {
+  color: #FFB44F;
+}
