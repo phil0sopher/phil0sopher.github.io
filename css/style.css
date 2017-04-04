@@ -563,6 +563,11 @@ section#resume {
   padding: 0px;
 }
 
+#resume_button {
+  background-color: #BF9240;
+    color: #fff;
+}
+
 @media only screen and (min-width: 768px) {
   #resumePic {
   margin-top: 40px;
@@ -579,6 +584,11 @@ section#resume {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  #resume_button{
+    margin-bottom: 20px;
+  }
+}
 /** Faamus Page **/
 
 #header-yuvue {
