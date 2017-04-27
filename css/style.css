@@ -528,16 +528,16 @@ hr.blue {
 /** Faamus Page **/
 
 #header-faamus {
-  background-color: #F44336;
+  background-color: #E4615F;
 }
 
 .red {
-  border-color: #F44336 !important;
-  background-color: #F44336 !important;
+  border-color: #E4615F !important;
+  background-color: #E4615F !important;
 }
 
 .text-red {
-  color: #F44336;
+  color: #E4615F;
 }
 
 .persona-tint {
