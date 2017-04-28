@@ -413,6 +413,11 @@ a:focus, a:hover {
     padding-bottom: 28px;
   }
 
+#profile_pic{
+    width: 150px;
+    height: 150px;
+}
+
 #profile-div{
   margin-bottom: 30px;
 }
@@ -432,6 +437,8 @@ a:focus, a:hover {
 @media only screen and (min-width : 960px) {
   #profile_pic{
   position: relative;
+  width: 250px;
+  height: 250px;
   }
   h1#ck {
     display: inherit;

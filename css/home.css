@@ -11,10 +11,10 @@ h1#home_heading {
 h1#ck {
 	display: none;
  	position:relative;
- 	top: -10.5rem;
+ 	top: -9.5rem;
     right: -8rem;
  	z-index: -1;
- 	font-size: 16rem;
+ 	font-size: 14rem;
  	color: rgb(255, 255, 255);
  }
 
@@ -34,10 +34,8 @@ section#about {
 	border-radius: 50%;
 }
 
-
-@media only screen and (max-width : 375px) {
-  #profile_pic {
-    height: 17rem !important;
-    width: 17rem !important;
-  }
+@media only screen and (max-width : 960px) {
+	h1#home_heading{
+		top: -40px;
+	}
 }
