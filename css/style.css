@@ -403,18 +403,27 @@ a:focus, a:hover {
 	background-image:url(../img/header-img-2.jpeg);
 }
 
+#index_about{
+  margin-top: -85px;
+  background-color: #222;
+  color: white;"
+}
+
+#index_about > h3 > hr{
+    padding-bottom: 28px;
+  }
+
+#profile-div{
+  margin-bottom: 30px;
+}
+
 .bjcardpadding {
   padding-bottom: 20px;
 }
 
 @media only screen and (min-width : 960px) {
-  #profile-div{
-    height:33rem;
-  }
   #profile_pic{
-  top: 50%;
   position: relative;
-  transform: translateY(-50%);
   }
   h1#ck {
     display: inherit;
@@ -423,6 +432,11 @@ a:focus, a:hover {
     margin-bottom: 0px;
     right: 4rem;
     color: #222;
+  }
+}
+@media only screen and (max-width : 768px) {
+  #index_about{
+    margin-top: -20px;
   }
 }
 
