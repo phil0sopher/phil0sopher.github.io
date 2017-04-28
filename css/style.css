@@ -421,6 +421,14 @@ a:focus, a:hover {
   padding-bottom: 20px;
 }
 
+.card-content > h5 {
+  font-weight: 550;
+}
+
+.card-content > h5 > a {
+  color: #212121;
+}
+
 @media only screen and (min-width : 960px) {
   #profile_pic{
   position: relative;
