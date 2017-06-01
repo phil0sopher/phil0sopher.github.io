@@ -465,9 +465,14 @@ a:focus, a:hover {
     padding-bottom: 10px;
 }
 
+.casestudy-header {
+  display: inline-block;
+  min-height: auto;
+}
+
 /** Ascend Page **/
 
-.casestudy-header {
+.ascend-header {
 	margin-top: 20px;
 }
 
@@ -574,6 +579,12 @@ hr.blue {
   -webkit-filter: grayscale;
   -webkit-filter: brightness(70%);
 } 
+
+/** BlueJay Page **/
+
+#header-bluejay {
+  background-color: #61AFDA;
+}
 
 /** My Resume Page **/
 section#resume {
