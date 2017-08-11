@@ -4,7 +4,16 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    background-color: #FAFBFC;
+    background-color: #F1F5F8;
+}
+
+::-moz-selection{
+  color: #136;
+  background: #D3B57F;
+}
+::selection {
+  color: #136;
+  background: #D3B57F;
 }
 
 header .portfolio-header-content {
@@ -76,7 +85,7 @@ strong {
 footer.page-footer {
     margin-top: 20px !important;
     padding-top: 20px !important;
-    background-color: #FAFBFC !important;
+    background-color: #F1F5F8 !important;
 }
 
 footer.page-footer .footer-copyright {
@@ -84,7 +93,7 @@ footer.page-footer .footer-copyright {
     height: 30px !important;
     line-height: 30px !important;
     color: #222 !important;
-    background-color: #FAFBFC;
+    background-color: #F1F5F8;
 }
 
 .dark_background {
@@ -370,6 +379,10 @@ div.card > div.card-action {
     }
 
 /** **/
+
+.collapsible-body {
+  background: #fff;
+}
 
 
 /** Home Page **/
