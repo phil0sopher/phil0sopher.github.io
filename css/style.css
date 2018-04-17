@@ -668,3 +668,10 @@ section#resume {
   color: rgb(20, 100, 255);
   border-color: rgb(20, 100, 255);
 }
+
+/** Faamus Page **/
+
+#header-elite {
+  background-image: url(https://phil0sopher.github.io/img/ascend/elite_background.png);
+}
+}
