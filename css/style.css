@@ -75,8 +75,7 @@ p {
 
 a {
    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-   font-weight: 400;
-   letter-spacing: 1px;
+   font-weight: 600;
 }
 
 strong {
@@ -127,6 +126,7 @@ footer.page-footer .footer-copyright {
   display: inline-block;
   line-height: 36px;
   padding: 0 1rem;
+  text-transform: uppercase;
   vertical-align: middle;
   -webkit-tap-highlight-color: transparent;
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
@@ -387,10 +387,6 @@ div.card > div.card-action {
 
 /** Home Page **/
 
-header .header-content .header-content-inner > :first-child {
-  font-weight: 400;
-}
-
 nav ul a.active {
   background: rgba(111,111,111,0.8);
 }
@@ -445,7 +441,7 @@ a:focus, a:hover {
 }
 
 .card-content > h5 {
-  font-weight: 400;
+  font-weight: 550;
 }
 
 .card-content > h5 > a {
@@ -665,20 +661,17 @@ section#resume {
 /** Daily UI Page **/
 
 #header-dailyUI {
-  background-color: #6888FB;
+  background-color: rgb(20, 100, 255);
 }
 
 .dailyUI_Blue {
-  color: #6888FB;
-  border-color: #6888FB;
+  color: rgb(20, 100, 255);
+  border-color: rgb(20, 100, 255);
 }
 
 /** Faamus Page **/
 
 #header-elite {
-  background-color: #0C8DFF;
+  background-image: url(https://phil0sopher.github.io/img/ascend/elite_background.png);
 }
-
-.text-elite {
-  color: rgb(0, 74, 142);
 }
