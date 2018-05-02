@@ -69,17 +69,31 @@ nav ul a:hover {
 	background-color: #222!important;
 }
 
-p {
+p, ul.text-muted {
   line-height: 2rem;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+p, a, span, li {
+  letter-spacing: 0.01rem;
+  font-size: 1.3rem;
+}
+
+ul{
+  font-weight: 300;
 }
 
 a {
    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-   font-weight: 600;
+   font-weight: 500;
 }
 
 strong {
-  font-weight: 700;
+  font-weight: 500;
 }
 
 footer.page-footer {
@@ -99,6 +113,12 @@ footer.page-footer .footer-copyright {
 .dark_background {
   background-color: #222;
   color: #ddd;
+}
+
+.btn, .btn-flat {
+  text-transform: none !important;
+  padding: 0 1rem !important;
+  font-weight: 500 !important;
 }
 
 #btn-white {
@@ -195,6 +215,22 @@ footer.page-footer .footer-copyright {
 
 
 /** animations **/
+
+.materialboxed:hover {
+  box-shadow: 3px 5px 10px 3px rgba(46,61,73,0.15);
+}
+
+.materialboxed {
+  box-shadow: rgba(46, 61, 73, 0.2) 0px 1px 2px 1px;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  padding: 0px;
+}
+
+img.materialboxed:nth-child(2), img.materialboxed:nth-child(1) {
+  margin-bottom: 30px;
+}
+
 /**------------**/
 
 /** burst **/
@@ -285,11 +321,11 @@ footer.page-footer .footer-copyright {
 }
 
 .hoverable_cs_cards:hover {
-  box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+  box-shadow: 3px 5px 10px 3px rgba(46,61,73,0.15);
 }
 
 .hoverable_cs_cards {
-  box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
+  box-shadow: 0px 1px 2px 1px rgba(46,61,73,0.2);
   border-radius: 6px;
   transition: all 0.3s ease;
   overflow: hidden;
@@ -297,11 +333,11 @@ footer.page-footer .footer-copyright {
 }
 
 .hoverable_np_cards:hover {
-  box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+  box-shadow: 2px 10px 20px 3px rgba(46,61,73,0.15);
 }
 
 .hoverable_np_cards{
-  box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
+  box-shadow: 0px 1px 2px 1px rgba(46,61,73,0.2);
   border-radius: 6px;
   transition: all 0.3s ease;
   overflow: hidden;
@@ -322,7 +358,6 @@ footer.page-footer .footer-copyright {
 .no_margin_padding {
   margin: 0;
   padding: 0;
-
 }
 
 .card-action-text {
@@ -352,11 +387,20 @@ div.card > div.card-action {
   background-color: #CCAC70;
 }
 
+..collapsible-header {
+  font-weight: 300;
+}
+
+.collapsible.popout>li {
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.16), 0 2px 6px 0 rgba(0,0,0,0.12) !important;
+  }
+
 @media (max-width: 979px) {
 	.hoverable_cs_cards {
 		margin: 6% 0%;
 	}
 }
+
 /** **/
 
 /** raised button on click **/
@@ -416,6 +460,10 @@ a:focus, a:hover {
 	background-image:url(../img/header-img-2.jpeg);
 }
 
+h1#home_heading {
+  font-weight: 400;
+}
+
 #index_about{
   margin-top: -85px;
   border-radius: 6px;
@@ -436,12 +484,16 @@ a:focus, a:hover {
   margin-bottom: 30px;
 }
 
+.card .card-content {
+    padding: 20px 20px 0 !important;
+}
+
 .bjcardpadding {
   padding-bottom: 20px;
 }
 
 .card-content > h5 {
-  font-weight: 550;
+  font-weight: 600;
 }
 
 .card-content > h5 > a {
@@ -661,12 +713,12 @@ section#resume {
 /** Daily UI Page **/
 
 #header-dailyUI {
-  background-color: rgb(20, 100, 255);
+  background-color: #6888FB;
 }
 
 .dailyUI_Blue {
-  color: rgb(20, 100, 255);
-  border-color: rgb(20, 100, 255);
+  color: #6888FB;
+  border-color: #6888FB;
 }
 
 /** Faamus Page **/
@@ -674,4 +726,11 @@ section#resume {
 #header-elite {
   background-image: url(https://phil0sopher.github.io/img/ascend/elite_background.png);
 }
+
+
+/** Column **/
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }
