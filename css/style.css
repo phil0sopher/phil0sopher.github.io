@@ -542,7 +542,7 @@ h1#home_heading {
 
 aside.projectDescription {
   text-align: left;
-  padding: 0;
+  padding: 0 0 10px;
 }
 
 aside.projectDescription > div > h5 {
@@ -753,6 +753,15 @@ section#resume {
   color: #FFB44F;
 }
 
+@media only screen and (min-width: 768px) {
+  .persona_card_faamus {
+    min-height: 510px;
+  }
+  .persona_card_yuvue {
+    min-height: 660px;
+  }
+}
+
 /** Daily UI Page **/
 
 #header-dailyUI {
@@ -776,4 +785,10 @@ section#resume {
 .col-centered{
     float: none;
     margin: 0 auto;
+}
+
+@media only screen and (min-width: 373px) {
+.col-centered-fix {
+  left: 22.5%;
+  }
 }
