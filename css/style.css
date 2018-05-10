@@ -69,9 +69,15 @@ nav ul a:hover {
 	background-color: #222!important;
 }
 
+.text-faded {
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
 p, ul.text-muted {
   line-height: 2rem;
   font-weight: 300;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -90,6 +96,10 @@ ul{
 a {
    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
    font-weight: 500;
+}
+
+p > a {
+  font-weight: 300;
 }
 
 strong {
@@ -188,6 +198,19 @@ footer.page-footer .footer-copyright {
   margin-bottom: 1rem;
 }
 
+.footer-text {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+footer > div > div.row {
+  margin: 20px auto;
+}
+
+aside > div > p.footer-text {
+  margin : 0;
+}
+
 @media (min-width: 0px) {
   section.casestudy {
   margin: 40px 0;
@@ -197,7 +220,7 @@ footer.page-footer .footer-copyright {
 @media only screen and (min-width: 960px) {
 .flow-text {
     font-size: 1.3rem;
-}
+  }
 }
 
 @media (min-width: 980px) {
@@ -217,6 +240,16 @@ footer.page-footer .footer-copyright {
     display: none;
   }
 }
+
+@media (max-width: 1199px) {
+  footer > div > div.row > aside.text-left {
+    text-align: center;
+  }
+  aside > div > p.footer-text {
+  margin : 20px;
+  }
+}
+
 
 
 /** animations **/
@@ -462,7 +495,7 @@ a:focus, a:hover {
 }
 
 #index-header{
-	background-image:url(../img/header-img-2.jpeg);
+	background-image:url(../img/header-img-2.jpg);
 }
 
 h1#home_heading {
@@ -557,7 +590,7 @@ aside.projectDescription > div > ul {
     color: #777;
 }
 
-aside.projectDescription > div > ul > li, a {
+aside.projectDescription > div > ul > li > a {
     font-weight: 400;
     font-size: 1rem;
 }
