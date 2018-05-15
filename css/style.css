@@ -797,9 +797,20 @@ section#resume {
 
 /** Daily UI Page **/
 
+
 #header-dailyUI {
   background-color: #6888FB;
+  background-image: url("https://phil0sopher.github.io/img/dailyUI/dailyUI_header2.png");
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+#header-dailyUI > .portfolio-header-content > .casestudy-header > h1 {
+  font-family: 'Lato','Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
 
 .dailyUI_Blue {
   color: #6888FB;
